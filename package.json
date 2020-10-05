@@ -17,7 +17,7 @@
 	"description": "A Discord bot that uses the Perspective API to automatically moderate users without a role",
 	"devDependencies": {
 		"@types/ws": "7.2.7",
-		"prettier": "2.0.4",
+		"prettier": "2.1.2",
 		"ts-node": "9.0.0",
 		"type-fest": "0.17.0",
 		"typescript": "3.9.7",
