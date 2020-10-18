@@ -52,7 +52,6 @@ export async function onMessage(message: Message): Promise<void> {
 							try {
 								await message.member.ban({days: 1, reason});
 								await notify(punishment, message, {score, type: key});
-								// eslint-disable-next-line prettier/prettier
 							} catch (error: unknown) {
 								logger.error(`unable to ban the user ${message.author.tag} (${message.author.id})`, error);
 							}
@@ -62,7 +61,6 @@ export async function onMessage(message: Message): Promise<void> {
 							try {
 								await Promise.all([message.member.kick(reason), message.delete({reason})]);
 								await notify(punishment, message, {score, type: key});
-								// eslint-disable-next-line prettier/prettier
 							} catch (error: unknown) {
 								logger.error(`unable to kick the user ${message.author.tag} (${message.author.id})`, error);
 							}
@@ -72,7 +70,6 @@ export async function onMessage(message: Message): Promise<void> {
 							try {
 								await message.delete({reason});
 								await notify(punishment, message, {score, type: key});
-								// eslint-disable-next-line prettier/prettier
 							} catch (error: unknown) {
 								logger.error(`unable to delete the message ${message.id} by the user ${message.author.tag} (${message.author.id})`, error);
 							}
