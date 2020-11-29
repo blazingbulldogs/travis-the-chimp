@@ -37,7 +37,7 @@ export async function onMessage(message: Message): Promise<void> {
 			const {value: score} = value.summaryScore;
 
 			/** The thresholds for this metric. */
-			const threshold = thresholds[key];
+			const {[key]: threshold} = thresholds;
 
 			for (const [_punishment, minimumScore] of Object.entries(threshold)) {
 				const punishment = _punishment as keyof typeof threshold;
