@@ -985,10 +985,10 @@ contains-path@^0.1.0:
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
   integrity sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
 
-convert@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/convert/-/convert-1.1.4.tgz#b32d0de5e29a37beeff08ac98f0c439d73f8fa1c"
-  integrity sha512-EhqG5OeqxffuVE0Zn+MIz4uVBTieQAo9k+nUIu8AKDTlWC6co7evqpv6I+PL0cCpOg9RlLa6N2OKJPoIxS9X2g==
+convert@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/convert/-/convert-1.2.0.tgz#cf0ac56914d52744adb090cd06ad8d9ea866c27b"
+  integrity sha512-TXJ06CJ0TD7jSruOfLOaMqzCI5cSSw1mCYv53jAbgR7awEKDroLYzFcJA5wmjavXct703V23Bfv1CacEJkCNmg==
 
 copy-descriptor@^0.1.0:
   version "0.1.1"
