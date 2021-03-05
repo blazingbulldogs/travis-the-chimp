@@ -1148,10 +1148,10 @@ convert-source-map@^1.7.0:
   dependencies:
     safe-buffer "~5.1.1"
 
-convert@1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/convert/-/convert-1.6.3.tgz#57e6b9f08a13b237d29a3ccb5108e623ba5a879f"
-  integrity sha512-7P9TrluW5zKDFUw8OvTvgZXO5T9H/qtoqFW7f29reocw4SUcLwbuWb9rEx2lUI+wMEjjad9cK2vPzXo5iLdtzA==
+convert@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/convert/-/convert-1.7.0.tgz#0a8bdd661fd8555015094d29099a1afda00b77ef"
+  integrity sha512-j/ip/e8off67izwt1u5Ubi/cXlUH6j2UKcWlCpTw26eYAjIQmE3L2S6tfeYVhjzOjCyfjerPFTCRP7knSOthqA==
 
 copy-descriptor@^0.1.0:
   version "0.1.1"
